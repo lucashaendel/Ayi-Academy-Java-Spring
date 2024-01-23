@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: tu-aplicacion
+curso:
+  titulo: "Curso, Java Spring y React"

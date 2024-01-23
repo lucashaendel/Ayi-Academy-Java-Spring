@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Título Predeterminado</title>
+</head>
+    <body>
+        <h2 th:text="${titulo}"></h2>
+
+        <table border="1">
+            <thead>
+            <tr>
+                <th>País</th>
+                <th>Copas Mundiales</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="entry: ${Paises}">
+                <td th:text="${entry.key}"></td>
+                <td th:text="${entry.value}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+
