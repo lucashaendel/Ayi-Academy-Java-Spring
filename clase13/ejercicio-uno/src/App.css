@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.container-imagenes {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.img-spring {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10vw;
+}
+.img-react {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-spring img {
+  width: 150px;
+}
+
+.img-react img {
+  width: 250px;
+}
